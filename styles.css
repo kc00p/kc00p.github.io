@@ -37,7 +37,7 @@ img {
     display: block;
     margin: 20px auto;
   }
-
+  
   li {
     border: 2px solid white;
     border-radius: 20px;
@@ -115,13 +115,13 @@ footer {
 .block{
   flex: 1 1 100px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   color: black;
   width: 120px;
   background-color: rgb(151, 198, 244);
   justify-content: center;
   align-items: center;
-  padding: 20px 40px;
+  padding: 20px 20px;
   margin: auto;
   border-radius: 20px;
   border: 2px solid white;
@@ -129,3 +129,10 @@ footer {
   margin-top: 1px;
   text-align: center;
 }
+
+.block p {
+  margin-top: 10px; 
+}
+
+
+

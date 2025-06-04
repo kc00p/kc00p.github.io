@@ -127,3 +127,29 @@ footer {
   margin-top: 1px;
   text-align: center;
 }
+
+  .code-container {
+    background-color: rgb(185, 216, 248);
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    overflow-x: auto;
+    font-size: 11px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 40px 20px;
+    white-space: pre;
+    border-color: white;
+  }
+  
+  .keyword {
+    color: #0000FF;
+    font-weight: bold;
+  }
+  
+  .string {
+    color: rgb(212, 100, 118);
+    font-style: italic;
+  }
+  
+      
+  
